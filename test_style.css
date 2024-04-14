@@ -1,0 +1,186 @@
+.div-wrapper {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .div-wrapper .div {
+    background-color: #ffffff;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .div-wrapper .frame {
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    top: 980px;
+    left: 0;
+  }
+  
+  .div-wrapper .copyright {
+    position: absolute;
+    width: 779px;
+    height: 52px;
+    top: 33px;
+    left: 570px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .div-wrapper .my-tasting-note {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    top: 67px;
+    left: 354px;
+  }
+  
+  .div-wrapper .p {
+    position: absolute;
+    width: 180px;
+    top: -1px;
+    left: 0;
+    font-family: "Kyiv*Type Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #00000096;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .div-wrapper .text-wrapper {
+    font-family: "Kyiv*Type Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #00000096;
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  
+  .div-wrapper .span {
+    font-size: 25px;
+  }
+  
+  .div-wrapper .text-wrapper-2 {
+    width: 208px;
+    height: 50px;
+    top: 66px;
+    left: 856px;
+    font-size: 30px;
+    position: absolute;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .div-wrapper .person {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 76px;
+    left: 1681px;
+  }
+  
+  .div-wrapper .group {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 76px;
+    left: 1733px;
+    background-image: url(./img/menu-book.png);
+    background-size: 100% 100%;
+  }
+  
+  .div-wrapper .liquor {
+    position: absolute;
+    width: 10px;
+    height: 11px;
+    top: 9px;
+    left: 4px;
+  }
+  
+  .div-wrapper .group-wrapper {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 76px;
+    left: 1629px;
+    background-image: url(./img/rectangle-12.svg);
+    background-size: 100% 100%;
+  }
+  
+  .div-wrapper .overlap-group-wrapper {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  .div-wrapper .overlap-group {
+    position: relative;
+    width: 24px;
+    height: 22px;
+  }
+  
+  .div-wrapper .ellipse {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 9.06px/8.56px;
+    border: 2.5px solid;
+    border-color: #000000;
+  }
+  
+  .div-wrapper .line {
+    position: absolute;
+    width: 10px;
+    height: 9px;
+    top: 13px;
+    left: 14px;
+  }
+  
+  .div-wrapper .text-wrapper-3 {
+    width: 1187px;
+    height: 174px;
+    top: 342px;
+    left: 366px;
+    font-size: 15px;
+    position: absolute;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .div-wrapper .text-wrapper-4 {
+    width: 520px;
+    height: 325px;
+    top: 585px;
+    left: 700px;
+    font-size: 15px;
+    position: absolute;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  

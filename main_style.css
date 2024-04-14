@@ -1,0 +1,307 @@
+@font-face {
+  font-family: "main_font";
+  src: url("font/kyiv-type-serif/KyivTypeSerif-Regular.otf") format("opentype");
+}
+
+.main-page {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-page .div {
+  background-color: #f4f4f4;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.main-page .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 350px;
+  top: 120px;
+  left: 0;
+}
+
+.main-page .main_img {
+  width: 779px;
+  left: 570px;
+  object-fit: cover;
+  position: absolute;
+  height: 350px;
+  top: 0;
+}
+
+.main-page .rectangle-2 {
+  width: 570px;
+  left: 0;
+  background-color: #e0cfb7;
+  position: absolute;
+  height: 350px;
+  top: 0;
+}
+
+.main-page .rectangle-3 {
+  width: 572px;
+  left: 1348px;
+  background-color: #e0cfb7;
+  position: absolute;
+  height: 350px;
+  top: 0;
+}
+
+.main-page .group {
+  position: absolute;
+  width: 32px;
+  height: 24px;
+  top: 163px;
+  left: 1332px;
+}
+
+.main-page .overlap-group {
+  position: relative;
+  height: 24px;
+  border-radius: 16px/12px;
+}
+
+.main-page .ellipse {
+  width: 32px;
+  height: 24px;
+  background-color: #706a6a;
+  border-radius: 16px/12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-page .polygon {
+  position: absolute;
+  width: 13px;
+  height: 12px;
+  top: 6px;
+  left: 12px;
+}
+
+.main-page .overlap-wrapper {
+  position: absolute;
+  width: 32px;
+  height: 24px;
+  top: 163px;
+  left: 554px;
+  transform: rotate(180deg);
+}
+
+.main-page .img {
+  position: absolute;
+  width: 13px;
+  height: 12px;
+  top: 6px;
+  left: 12px;
+  transform: rotate(-180deg);
+}
+
+.main-page .my-tasting-note {
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  top: 34px;
+  left: 370px;
+}
+
+.main-page .p {
+  position: absolute;
+  width: 180px;
+  top: -1px;
+  left: 0;
+  font-family: "main_font";
+  font-weight: 400;
+  color: #00000096;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .text-wrapper {
+  font-family: "main_font";
+  font-weight: 400;
+  color: #00000096;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.main-page .span {
+  font-size: 25px;
+}
+
+.main-page .text-wrapper-2 {
+  left: 570px;
+  font-size: 16px;
+  position: absolute;
+  width: 180px;
+  height: 25px;
+  top: 52px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-3 {
+  position: absolute;
+  width: 180px;
+  height: 25px;
+  top: 52px;
+  left: 770px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-4 {
+  position: absolute;
+  width: 180px;
+  height: 25px;
+  top: 52px;
+  left: 970px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .Bartender_test {
+  left: 1368px;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: default;
+  position: absolute;
+  width: 180px;
+  height: 25px;
+  top: 52px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-6 {
+  position: absolute;
+  width: 180px;
+  height: 25px;
+  top: 52px;
+  left: 1168px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .frame {
+  position: absolute;
+  width: 1920px;
+  height: 100px;
+  top: 980px;
+  left: 0;
+}
+
+.main-page .copyright {
+  position: absolute;
+  width: 779px;
+  height: 52px;
+  top: 33px;
+  left: 570px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .person {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 53px;
+  left: 1697px;
+}
+
+.main-page .liquor-wrapper {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 53px;
+  left: 1749px;
+  background-image: url(./img/menu-book.png);
+  background-size: 100% 100%;
+}
+
+.main-page .liquor {
+  position: absolute;
+  width: 10px;
+  height: 11px;
+  top: 9px;
+  left: 4px;
+}
+
+.main-page .group-wrapper {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 53px;
+  left: 1645px;
+  background-image: url(./img/search.svg);
+  background-size: 100% 100%;
+}
+
+.main-page .overlap-group-wrapper {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  top: 5px;
+  left: 5px;
+}
+
+.main-page .overlap-group-2 {
+  position: relative;
+  width: 24px;
+  height: 22px;
+}
+
+.main-page .ellipse-2 {
+  width: 18px;
+  height: 17px;
+  background-color: #ffffff;
+  border-radius: 9.06px/8.56px;
+  border: 2.5px solid;
+  border-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-page .line {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 13px;
+  left: 14px;
+}
